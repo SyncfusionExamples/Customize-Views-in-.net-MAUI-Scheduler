@@ -23,6 +23,7 @@
     </ContentPage.Resources>
 
     <scheduler:SfScheduler x:Name="Scheduler" 
+                           x:DataType="local:SchedulerGettingStartedViewModel"
                            AppointmentsSource="{Binding Events}"
                            MinimumDateTime="{Binding MinDateTime}"
                            MaximumDateTime="{Binding MaxDateTime}"
